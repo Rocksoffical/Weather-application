@@ -145,7 +145,7 @@ class WeatherApp:
         except (KeyError, ValueError):
             print("Unable to process the weather data.")
 
-        Continue = input("want to continue y/n")
+        Continue = input("want to continue y/n :")
 
         if Continue == "y":
             app.run()
